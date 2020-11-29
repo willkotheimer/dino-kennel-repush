@@ -1,0 +1,135 @@
+
+/* @fontface */
+@font-face {
+    font-family: "CopyStructB";
+    src: url("./../COPYB___.ttf");
+         
+  }
+  @font-face {
+    font-family: "CopyStructN";
+    src: url("./../COPYN___.ttf");
+         
+  }
+
+  body {
+      font-family: "CopyStructB";
+      color: white;
+  }
+
+
+/*changes to bootstrap*/
+
+.jumbotron {
+    margin-bottom: 0 !important;
+}
+.card-body {
+    padding: 0 !important;
+    color: black;
+    
+}
+.card {
+    margin-bottom: 2rem;
+    border: 3px solid white;
+}
+/*header*/
+
+h1 {
+    font-family: "CopyStructN";
+}
+#header {
+    
+    background-color: black;
+
+}
+header h1 {
+    text-align: center;
+}
+
+#addDinosaur {
+    background-color: white;
+}
+
+#kennel {
+    background-image: linear-gradient(#00b8e6,#007a99);
+
+}
+
+#hospital {
+    background-image: linear-gradient(#cc0000,#800000);
+}
+
+#graveyard {
+    
+    background-image: linear-gradient(#2e1919,#242424);
+    
+}
+
+/*cards*/
+
+#dino-innercard {
+    background-image: linear-gradient(#ffffff,#ffcc99);
+}
+#button-title {
+    background-color: red;
+    width: 100%;
+    text-align:center;
+}
+#buttons {
+    width: 100%;
+    padding-left: 12%;
+    display: flex;
+    flex-wrap: row wrap;
+    background-image: linear-gradient(#000000,#1f1f14);
+}
+
+#eat,#pack,#display,#delete {
+    margin: .5em;
+    min-width: 5em;
+}
+
+/*Modal Styles*/
+
+.modal {
+    color: #2e2e1f
+}
+
+.modal-header {
+    
+    background-image: linear-gradient(#2e1919,#242424);
+    color: white;
+    text-align: center;
+}
+
+.modal-dialogue {
+    width: 100% !important;
+    height: 100% !important;
+    max-width:none !important;
+}
+
+.modal-content {
+    height: auto !important;
+    min-height: 100% !important;
+}
+
+.card-img-left {
+    max-width:50%;
+}
+.dino-details-right {
+    width: 48%;
+    margin-left:2%;
+}
+
+
+/*buttons*/
+
+.adventure, .pet, .feed, .delete, .display {
+   width:80px;
+   height: 30px;
+   margin: 10px;
+}
+
+button#submit {
+    margin-top: 20px;
+}
+
+
